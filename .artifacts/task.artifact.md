@@ -1,0 +1,5 @@
+- [x] Clean build artifacts and Gradle cache
+    - [x] Run `gradle_build("clean")`
+    - [/] Run `gradle_build(":app:kspDebugKotlin --no-configuration-cache")`
+- [ ] Verify build completion
+    - [ ] Run `./gradlew assembleDebug`
